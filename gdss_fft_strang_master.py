@@ -13,7 +13,7 @@ Includes:
   7) Final 3D plots of |u|, w, v (paper-style)
   8) Final 2D plots of |u|, w, v
 
-Author: adapted master script for GDSS benchmarking
+Author: C. A. Molina-Holguín, J.E. Macías-Díaz, L. A. Gallegos-Infante, and R. Jaimes-Reátegui. 
 """
 
 import time
@@ -185,7 +185,7 @@ def align_global_phase(u_ref, u):
 
 
 # ==============================================================================
-# INITIAL CONDITIONS (ICs) — soliton-like and benchmark test cases
+# INITIAL CONDITIONS (ICs) — benchmark test cases
 # ==============================================================================
 def ic_gaussian_pulse_2d(
     X,
